@@ -1,0 +1,20 @@
+[
+    {
+        "image" : "image/f1.png",
+        "name" : "oferta 1",
+        "description" : "informacion",
+        "price" : 200
+    },
+    {
+        "image" : "image/f2.png",
+        "name" : "oferta 2",
+        "description" : "informacion",
+        "price" : 200
+    },
+    {
+        "image" : "image/f3.png",
+        "name" : "oferta 3",
+        "description" : "informacion",
+        "price" : 200
+    }
+]

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tienda Responsive</title>
+</head>
+<body>
+    <header class="header-section">
+        <nav class="menu container">
+            <a href="#" class="logo">logo</a>
+            <input type="checkbox" id="menu"/>
+            <label for="menu">
+                <img src="image/menu.png" alt="menu logo" class="menu-icon">
+            </label>
+            <ul class="navbar">
+                <!--menu generado en javascript generateMenu()-->
+            </ul>
+
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="image/car.svg" id="img-carrito" alt="car">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>imagen</th>
+                                        <th>nombre</th>
+                                        <th>precio</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+
+                                </tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-2">vaciar carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="header-content container">
+            <div class="header-img">
+                <img src="image/right.png" alt="">
+            </div>
+            <div class="header-txt">
+                <h1>ofertas especiales</h1>
+                <p>estrena las mejores prendas</p>
+                <a href="#" class="btn-1">informacion</a>
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <section class="ofert container">
+            <!--lista de oferta generada en javaScript generateOfert()-->
+        </section>
+        <section id="lista-1" class="products container" >
+
+            <h2>productos</h2>
+
+            <div class="product-content">
+            <!--lista de productos generada en javaScript generateProduct()-->
+            </div>
+        </section>
+
+        <section class="icons container">
+            
+            <div class="icon-1">
+                <div class="icon-img">
+                    <img src="image/i1.svg" alt="">
+                </div>
+                <div class="icon-txt">
+                    <h3>Lorem ipsum dolor sit.</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, 
+                    </p> 
+                </div>
+            </div>
+
+            <div class="icon-1">
+                <div class="icon-img">
+                    <img src="image/i2.svg" alt="">
+                </div>
+                <div class="icon-txt">
+                    <h3>Lorem ipsum dolor sit.</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, 
+                    </p>
+                </div>
+            </div>
+
+            <div class="icon-1">
+                <div class="icon-img">
+                    <img src="image/i3.svg" alt="">
+                </div>
+                <div class="icon-txt">
+                    <h3>Lorem ipsum dolor sit.</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, 
+                    </p>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="blog container">
+
+            <div class="blog-1">
+                <img src="image/b1.jpg" alt="">
+                <h3>blog 1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Praesentium iure officia modi temporibus porro. Itaque possimus libero corrupti, 
+                    pariatur neque explicabo. Consectetur molestias recusandae sunt dicta saepe unde magni sequi.
+                </p>
+            </div>
+
+            <div class="blog-1">
+                <img src="image/b2.jpg" alt="">
+                <h3>blog 1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Praesentium iure officia modi temporibus porro. Itaque possimus libero corrupti, 
+                    pariatur neque explicabo. Consectetur molestias recusandae sunt dicta saepe unde magni sequi.
+                </p>
+            </div>
+
+            <div class="blog-1">
+                <img src="image/b3.jpg" alt="">
+                <h3>blog 1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Praesentium iure officia modi temporibus porro. Itaque possimus libero corrupti, 
+                    pariatur neque explicabo. Consectetur molestias recusandae sunt dicta saepe unde magni sequi.
+                </p>
+            </div>
+
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-content container">
+
+            <div class="link">
+                <h3>lorem</h3>
+                <ul>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>lorem</h3>
+                <ul>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>lorem</h3>
+                <ul>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </footer>
+    <script src="./script/script.js"></script>
+    <script src="./script/carrito.js"></script>
+</body>
+</html>
